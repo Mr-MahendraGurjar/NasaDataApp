@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="173dp"
+    android:layout_height="173dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="1dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="3dp"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:id="@+id/myfilesgridlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/myimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:layout_margin="0dp"
+                android:alpha="0.9"
+                android:background="#9F3EB1E4"
+                android:gravity="center">
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/expln"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:textSize="10sp"
+                android:text="dfgdfdfg"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black_light"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/image_tittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="text"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
